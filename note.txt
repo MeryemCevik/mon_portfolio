@@ -1,10 +1,5 @@
 https://meryemcevik.github.io/mon_portfolio/
 https://mcevik.000webhostapp.com/
 
-A FAIRE :
-
-- Ajout un autre pour visualiser (utliser google viewer) le cv au lieu de le télécharger.
-- Ajouter la partie stage en copiant sur les autres site web
-(exemple : https://kothanromeo.dev/).
 
 
