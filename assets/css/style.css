@@ -143,7 +143,9 @@ section {
     background: #000;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
     padding: 1.875rem 2.5rem;
-    z-index: 999; }
+    z-index: 999; 
+    overflow-y: auto;
+  }
     @media screen and (max-width: 575.98px) {
       .my-menu .menu-box {
         width: 100%; } }
@@ -1061,6 +1063,8 @@ section {
                   z-index: 1;
                   transition: all ease-in-out .5s; }
 
+                  
+
 #contact {
   background: #000; }
   #contact .copy-right {
@@ -1154,6 +1158,9 @@ section {
         #contact form .form-group textarea:focus, #contact form .form-group textarea:active {
           outline: none;
           box-shadow: none; }
+
+
+          
 		  
 #news {
   background-color: #000;
