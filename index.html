@@ -112,6 +112,17 @@
                                         .surligner1:hover::before {
                                             transform: scaleX(1); /* Développez le soulignement au survol */
                                         }
+
+                                        .column-container {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+
+                                        .column {
+                                            flex: 1;
+                                            width: 49%; /* Réglez la largeur comme vous le souhaitez */
+                                            margin-right: 2%; /* Marge entre les colonnes */
+                                        }
                                         </style>
                                         <h3 style="color:#E31C25">Qu’est-ce que le BTS SIO ?</h3>
                                         <br>
@@ -119,12 +130,14 @@
                                             <span class="surligner1">Le brevet de technicien supérieur services informatiques aux organisations (BTS SIO) </span>s’adresse à ceux qui souhaitent se former en deux ans aux métiers d’administrateur réseau ou de développeur pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.
                                             </p>
                                         </br></br>
-                                        <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Le BTS SIO option SISR</h4>
-                                        <p style="width:800pt;margin-bottom:10px" > 
+                                        <div class="column-container">
+                                            <div class="column">
+                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;">Le BTS SIO option SISR</h4>
+                                        <p style="width:400pt;margin-bottom:10px" > 
                                             <span class="surligner1">L’option Solutions d’infrastructure, systèmes et réseaux</span> forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). Ces derniers sont en mesure de répondre aux besoins informatiques d’une entreprise, tout en accompagnant la transformation numérique. En sortant d’un BTS SIO SISR, vous serez donc capable de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.
                                         </br></br>
                                     </p>
-                                        <p style="width:800pt;margin-bottom:10px">
+                                        <p style="width:400pt;margin-bottom:10px">
                                         Les techniciens supérieurs en informatique option SISR peuvent accéder aux métiers de :
                                             </p>
                                             <p>
@@ -135,13 +148,16 @@
                                                 - Chargé d’études informatiques</br>
                                                 - Technicien d’infrastructure</br>
                                                 - etc.
-                                            </p>    
-                                        <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;" id="slam">Le BTS SIO option SLAM</h4>
-                                        <p style="width:800pt;margin-bottom:10px" > 
-                                            <span class="surligner1">L’option Solutions logicielles et applications métiers</span> forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement d’applications, intégration au sein de la société).
+                                            </p>
+                                        </div>
+                                        <div class="column"></div>
+                                        <div class="column">
+                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;" id="slam">Le BTS SIO option SLAM</h4>
+                                        <p style="width:400pt;margin-bottom:10px" > 
+                                            <span class="surligner1" >L’option Solutions logicielles et applications métiers</span> forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement d’applications, intégration au sein de la société).
                                         </br></br>
                                     </p>
-                                        <p style="width:800pt;margin-bottom:10px" > 
+                                        <p style="width:400pt;margin-bottom:10px" > 
                                         Les techniciens supérieurs en informatique option SLAM sont préparés aux métiers de :
                                         </p>
                                         <p>
@@ -153,6 +169,8 @@
                                             - Intégrateur web</br>
                                             - etc.
                                         </p>
+                                    </div>    
+                                    </div>
                                 </div>
                             </div>
                             <div class="inter">
