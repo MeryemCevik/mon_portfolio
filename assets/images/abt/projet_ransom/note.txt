@@ -1,0 +1,5 @@
+lien github : https://github.com/MeryemCevik/ransomware
+réaliser en batch
+OS : Windows
+mini projet : 
+Un logiciel qui chiffrera les fichiers et créera un fichier texte sur le bureau permettant d’obtenir les informations pour payer la rançon
