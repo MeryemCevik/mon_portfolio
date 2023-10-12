@@ -22,13 +22,15 @@
                 </span>
                 <ul>
                     <li><a onclick="hide_menu()" href="#home">Accueil</a></li>
+                    <li><a onclick="hide_menu()" href="#bts_sio">BTS SIO</a></li>
 					<li><a onclick="hide_menu()" href="#cv">Mon CV</a></li>
                     <li><a onclick="hide_menu()" href="#about">Compétences et certificats</a></li>
                     <li><a onclick="hide_menu()" href="#resume">Expériences et formations</a></li>
                     <li><a onclick="hide_menu()" href="#portfolio">Portfolio</a></li>
                     <li><a onclick="hide_menu()" href="#news">Veilles technologiques</a></li>
                     <li><a onclick="hide_menu()" href="#stages">Stages</a></li>
-                    <li><a onclick="hide_menu()" href="#metier_info">Métiers de l'informatique</a></li>
+                    <li><a onclick="hide_menu()" href="#contactMe">Contact</a></li>
+                    
                     <!--<li><a onclick="hide_menu()" href="#contacter">Contactez-moi</a></li>-->
 
                 </ul>
@@ -68,8 +70,8 @@
                                 <h1>Bienvenue sur mon portfolio <span>CEVIK Meryem</span></h1>
                             </div>
 							<div class="welcome-box">
-                                <h3>Etudiante en 2ième année de BTS SIO (Services Informatiques aux Organisations) <span>option SLAM (Solutions Logicielles et Applications Métier)</span></h3>
-								</br> <span style="color:white"><a href="mailto:name@email.com">mcevik6738@gmail.com</a></span>
+                                <h3>Etudiante en 2ième année de <a href="#bts_sio" style="color:#fff" class="surligner">BTS SIO</a> (Services Informatiques aux Organisations) <span><a href="#slam" style="color:#fff" class="surligner">option SLAM</a> (Solutions Logicielles et Applications Métier)</span></h3>
+								</br><span style="color:white"><a href="mailto:mcevik6738@gmail.com">mcevik6738@gmail.com</a></span>
 
 							</div>
                             <div class="line"></div>
@@ -77,6 +79,85 @@
                         </div>
                         <div class="copy-right">
                             <h6>© Meryem CEVIK 2022 - Tout droits réservés 2022 </h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =================================****BTS SIO****================================= -->
+            <section id="news">
+                <div class="container">
+                    <div class="row">
+                        <div class="wrapper">
+                            <div class="left-wrapper">
+                                <div class="content">
+                                    <div class="title" id="bts_sio">
+                                        <style>
+                                            .surligner1 {
+                                            position: relative; /* Ajoutez une position relative */
+                                        }
+
+                                        .surligner1::before {
+                                            content: " "; /* Contenu vide pour créer le soulignement */
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 2px; /* Hauteur du soulignement */
+                                            background: #E31C25; /* Couleur du soulignement */
+                                            bottom: 0;
+                                            left: 0;
+                                            transform: scaleX(0); /* Commencez par une échelle nulle */
+                                            transform-origin: bottom left;
+                                            transition: transform 0.3s ease;
+                                        }
+
+                                        .surligner1:hover::before {
+                                            transform: scaleX(1); /* Développez le soulignement au survol */
+                                        }
+                                        </style>
+                                        <h3 style="color:#E31C25">Qu’est-ce que le BTS SIO ?</h3>
+                                        <br>
+                                        <p style="width:800pt;margin-bottom:10px"> 
+                                            <span class="surligner1">Le brevet de technicien supérieur services informatiques aux organisations (BTS SIO) </span>s’adresse à ceux qui souhaitent se former en deux ans aux métiers d’administrateur réseau ou de développeur pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.
+                                            </p>
+                                        </br></br>
+                                        <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Le BTS SIO option SISR</h4>
+                                        <p style="width:800pt;margin-bottom:10px" > 
+                                            <span class="surligner1">L’option Solutions d’infrastructure, systèmes et réseaux</span> forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). Ces derniers sont en mesure de répondre aux besoins informatiques d’une entreprise, tout en accompagnant la transformation numérique. En sortant d’un BTS SIO SISR, vous serez donc capable de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.
+                                        </br></br>
+                                    </p>
+                                        <p style="width:800pt;margin-bottom:10px">
+                                        Les techniciens supérieurs en informatique option SISR peuvent accéder aux métiers de :
+                                            </p>
+                                            <p>
+                                                - Administrateur systèmes et réseaux</br>
+                                                - Informaticien support et déploiement</br>
+                                                - Pilote d’exploitation</br>
+                                                - Support systèmes et réseaux</br>
+                                                - Chargé d’études informatiques</br>
+                                                - Technicien d’infrastructure</br>
+                                                - etc.
+                                            </p>    
+                                        <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;" id="slam">Le BTS SIO option SLAM</h4>
+                                        <p style="width:800pt;margin-bottom:10px" > 
+                                            <span class="surligner1">L’option Solutions logicielles et applications métiers</span> forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement d’applications, intégration au sein de la société).
+                                        </br></br>
+                                    </p>
+                                        <p style="width:800pt;margin-bottom:10px" > 
+                                        Les techniciens supérieurs en informatique option SLAM sont préparés aux métiers de :
+                                        </p>
+                                        <p>
+                                            - Développeur d’applications informatiques</br>
+                                            - Développeur informatique</br>
+                                            - Analyste d’applications ou d’études</br>
+                                            - Analyste programmeur</br>
+                                            - Chargé d’études informatiques</br>
+                                            - Intégrateur web</br>
+                                            - etc.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="inter">
+                                <h6>BTS SIO</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -689,7 +770,6 @@
                                             <br>
                                         <p>Source : https://cybermap.kaspersky.com/fr</p>
                                             <br> -->
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -700,7 +780,7 @@
                     </div>
                 </div>
             </section>
-            <!-- =================================********================================= -->
+            <!-- =================================**** STAGES ****================================= -->
              <section id="news">
                 <div class="container">
                     <div class="row">
@@ -823,16 +903,16 @@
 
 
             </section>
-            <!-- =================================****METIER DE LINFO****================================= -->
-            <section id="contact">
+             <!-- =================================****Contact****================================= -->
+             <section id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="heading" id="metier_info">
-                                <h2>Métiers de l'informatique</h2>
+                            <div class="heading" id="contactMe">
+                                <h2>Contact</h2>
                             </div>
                         </div>
-                    </div>
+                    </div><!--
                     <div class="row">
                         <div class="col-12">
                             <form action="">
@@ -840,20 +920,130 @@
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="col-12">
                                         <div class="send">
-                                            <a href="https://drive.google.com/file/d/1b-ORtXMBSyKhSlsDzwnCrRbH_8rP83F2/view"><i class="fas fa-eye"></i> Visualiser</a>
-                                            <span class="button-space"></span>
-                                            <a href="Métier_du_numérique_CEVIK_Meryem.pdf"><i class="fas fa-download"></i> Télécharger</a>
-                                            <br><br><br><br><br><br>
+                                            <a href="mailto:mcevik6738@gmail.com"><i class="fa fa-envelope"></i></a>
+                                            <a href="https://www.linkedin.com/in/meryem-cevik-3b5a1a252/"><i class="flaticon-linkedin"></i></a>-->
+                                            <div class="container">
+                                                <div class="row">
+                                                <br/><br/>
+                                                <div class="col-md-12">
+                                                    <a href="mailto:mcevik6738@gmail.com" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a>
+                                                    <a href="https://www.linkedin.com/in/meryem-cevik-3b5a1a252/" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                                    <a href="https://www.facebook.com/profile.php?id=100066606188262" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+                                                    <a href="https://github.com/MeryemCevik" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+                                            </div>
+                                            </div>
+                                            </div>
+                                        </br></br></br></br>  
+                                              <style>
+                                                @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+                                                a.btn-social,
+                                                .btn-social
+                                                {
+                                                    border-radius: 50%;
+                                                    color: #ffffff !important;
+                                                    display: inline-block;
+                                                    height: 54px;
+                                                    line-height: 54px;
+                                                    margin: 8px 4px;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    transition: background-color .3s;
+                                                    webkit-transition: background-color .3s;
+                                                    width: 54px;
+                                                }
+
+                                                .btn-social .fa,.btn-social i
+                                                {
+                                                    backface-visibility: hidden;
+                                                    moz-backface-visibility: hidden;
+                                                    ms-transform: scale(1);
+                                                    o-transform: scale(1);
+                                                    transform: scale(1);
+                                                    transition: all .25s;
+                                                    webkit-backface-visibility: hidden;
+                                                    webkit-transform: scale(1);
+                                                    webkit-transition: all .25s;
+                                                }
+                                                .btn-social:hover,.btn-social:focus
+                                                {
+                                                    color: #fff;
+                                                    outline: none;
+                                                    text-decoration: none;
+                                                }
+                                                .btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+                                                {
+                                                    ms-transform: scale(1.3);
+                                                    o-transform: scale(1.3);
+                                                    transform: scale(1.3);
+                                                    webkit-transform: scale(1.3);
+                                                }
+                                                .btn-social.btn-xs
+                                                {
+                                                    font-size: 9px;
+                                                    height: 24px;
+                                                    line-height: 13px;
+                                                    margin: 6px 2px;
+                                                    width: 24px;
+                                                }
+                                                .btn-social.btn-sm
+                                                {
+                                                    font-size: 13px;
+                                                    height: 36px;
+                                                    line-height: 18px;
+                                                    margin: 6px 2px;
+                                                    width: 36px;
+                                                }
+                                                .btn-social.btn-lg
+                                                {
+                                                    font-size: 22px;
+                                                    height: 72px;
+                                                    line-height: 40px;
+                                                    margin: 10px 6px;
+                                                    width: 72px;
+                                                }
+                                                .btn-github
+                                                    {
+                                                        background-color: #4183c4;
+                                                    }
+                                                    .btn-github:hover
+                                                    {
+                                                        background-color: #689cd0;
+                                                    }
+                                                .btn-facebook
+                                                    {
+                                                        background-color: #3b5998;
+                                                    }
+                                                    .btn-facebook:hover
+                                                    {
+                                                        background-color: #4c70ba;
+                                                    }
+                                                .btn-linkedin
+                                                    {
+                                                        background-color: #0976b4;
+                                                    }
+                                                    .btn-linkedin:hover
+                                                    {
+                                                        background-color: #0b96e5;
+                                                    }
+                                                .btn-email
+                                                    {
+                                                        background-color: #44c456;
+                                                    }
+                                                    .btn-email:hover
+                                                    {
+                                                        background-color: #6bd079;
+                                                    }
+                                              </style>                                             
+                                        </br></br></br></br>
                                         </div>
                                     </div>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 </div>
             </section>
-               
         <!-- =================================********================================= -->
         <script src="assets/js/jquery-3.2.1.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
