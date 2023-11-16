@@ -1,0 +1,7 @@
+Machine learning : L'utilisation de l'apprentissage automatique (machine learning) dans le développement d'applications de recommandation de contenu
+
+Enjeux de la cybersécurité : 
+
+Sources : https://www.coe.int/fr/web/artificial-intelligence/glossary
+https://www.talend.com/fr/resources/what-is-machine-learning/
+https://www.coe.int/fr/web/artificial-intelligence/glossary
