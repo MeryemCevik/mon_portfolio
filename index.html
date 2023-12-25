@@ -408,6 +408,18 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!----------------- LOGICIELS---------------->
+                         <!---<div class="content _yt_er_ol">
+                            <span style="color:#fff">Logiciels</span>
+                            <div class="_re_uy_iu">
+                                
+
+                                
+                            </div>
+                        </div>
+                    -->
+                         
                         <div class="content _yt_er_ol">
                             <span style="color:#fff">Logiciels</span>
                             <div class="_re_uy_iu">
@@ -435,14 +447,14 @@
                                 <div class="_ol_ew_xs">
                                     <span class="surligner">Kate</span>
                                     <span class="surligner">Atom</span>
-                                    <span class="surligner">Adobe Photoshop</span>
+                                    <span class="surligner">VS Code</span>
                                     <span class="surligner">IntelliJ Idea</span>
 
                                 </div>
                                 <div class="_ol_ew_xs">
                                     <span class="surligner">Eclypse</span>
-                                    <span class="surligner">Edupython</span>
-                                    <span class="surligner">Construct</span>
+                                    <span class="surligner">Python</span>
+                                    <span class="surligner">Construct 3</span>
                                     <span class="surligner">Windev</span>
                                 </div>
                                 <div class="_ol_ew_xs">
@@ -450,7 +462,7 @@
                                     <span class="surligner">VirtualBox</span>
                                     <span class="surligner">Visual Studio</span>
                                     <span class="surligner">Git</span>
-                                    <span class="surligner">Visual Basic</span>
+                                    <span class="surligner">Symfony</span>
 
                                 </div>
                                 <div class="_ol_ew_xs">
@@ -469,6 +481,7 @@
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="content _yt_er_ol">
                             <span style="color:#fff">Langues</span>
                             <div class="_re_uy_iu">
@@ -575,7 +588,7 @@
                                     </li>
                                     <li>
                                         <h4>Stage en développement informatique</h4>
-                                        <h6>à venir...</h6>
+                                        <h6>OCF-EST à STRASBOURG</h6>
                                         <span>du 15/01/2024 au 16/02/2024 - pendant 5 semaines</span>
                                         <p>à venir...</p>
                                     </li>
@@ -1149,7 +1162,6 @@
                                             <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de l'entreprise</h4>
                                             <p style="width:800pt;margin-bottom:10px"> 
                                                 Sevilog est une société de service dans le domaine Informatique (applications spécifiques, site Internet et formation). 
-                                                <br>
                                                 Elle édite des logiciels de gestion commerciale destinés aux P.M.E. sous la marque AKEAD®.</p>
                                                 
                                                 <style>
@@ -1187,6 +1199,34 @@
                                                 .cadre-images:hover {
                                                     border-color: #fff;
                                                 }
+                                            </style>
+                                            <style>
+                                                .surligner2 {
+                                                    position: relative;
+                                                    /* Ajoutez une position relative */
+                                                }
+            
+                                                .surligner2::before {
+                                                    content: " ";
+                                                    /* Contenu vide pour créer le soulignement */
+                                                    position: absolute;
+                                                    width: 100%;
+                                                    height: 2px;
+                                                    /* Hauteur du soulignement */
+                                                    background: #E31C25;
+                                                    /* Couleur du soulignement */
+                                                    bottom: 0;
+                                                    left: 0;
+                                                    transform: scaleX(0);
+                                                    /* Commencez par une échelle nulle */
+                                                    transform-origin: bottom left;
+                                                    transition: transform 0.3s ease;
+                                                }
+            
+                                                .surligner2:hover::before {
+                                                    transform: scaleX(1);
+                                                    /* Développez le soulignement au survol */
+                                                }
                                             </style>                                            
 
                                 <div class="cimg">
@@ -1220,23 +1260,68 @@
                                     </div>
                                 </div>
                                 <br>
-
                                 <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation du
                                     projet</h4>
                                 <p style="width:800pt;margin-bottom:10px">Ce stage consistait à développer une nouvelle
-                                    partie appelée 'Gestion de projets’ dans l’application AKEAD TECH avec Flutter.
-                                    <br>
+                                    partie appelée 'Gestion de projets’ dans l’application <span class="surligner2">AKEAD TECH avec Flutter</span>.
                                     L'application Akead Tech permet la création automatique de projets pour chaque
                                     clients et l'ajout de listes de tâches pour
-                                    <br>
                                     suivre leur avancement.
                                 </p>
+                                <p style="width:800pt;margin-bottom:10px">Le responsable de l'entreprise nous a informés 
+                                    que le personnel chargé des maintenances, des installations de logiciels et de la gestion 
+                                    du matériel souhaitait pouvoir suivre l'avancement de leurs tâches pour chaque client. Ils souhaitaient 
+                                    être informés en temps réel afin de ne pas perdre de temps dans la rédaction des tâches.
+                                </p>
+                                <p style="width:800pt;margin-bottom:10px">En collaboration avec l'équipe informatique, nous avons élaboré une 
+                                    liste des éléments à intégrer dans <span class="surligner2"><strong>l'interface utilisateurs et la base de données</strong></span>. Ensuite, nous avons expliqué 
+                                    ces modifications aux clients, c'est-à-dire au personnel de l'entreprise. Nous avons également présenté un projet ergonomique, 
+                                    facilitant la manipulation grâce à des cases à cocher.
+                                </p>
+
+                                <p style="width:800pt;margin-bottom:10px">J'ai pris en charge le développement de l'interface utilisateur de l'application en utilisant 
+                                    le framework <span class="surligner2">Flutter</span> (langage de programmation Dart) avec l'éditeur <span class="surligner2">VS Code</span>. Mon tuteur s'est occupé du développement du back-end 
+                                    en utilisant le framework <span class="surligner2">Symfony</span> (langage de programmation PHP). Nous testions l'application avec <span class="surligner2">Android Studio</span>. Chaque semaine, 
+                                    nous recueillions les avis des autres membres de l'équipe pour apporter des modifications ou ajouter de nouvelles fonctionnalités 
+                                    à implémenter. Nous utilisions <span class="surligner2">Github</span> pour communiquer nos réalisations, ainsi que pour sauvegarder et versionner nos travaux. 
+                                    <span class="surligner2" href="">La méthode Scrum</span> était utilisée pour gérer le processus de développement.
+                                </p>
+
+                                <p style="width:800pt;margin-bottom:10px">Voici les tables que nous avons créées :
+                                </br>-   Client, SubProject, ProjectTodo, Project, Favorite</p>
+                                <style>
+                                    /* Ajoutez du style pour contrôler la disposition des images */
+                                    .image-container {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: space-around;
+                                    }
+                            
+                                    .image-container img {
+                                        width: 16%;
+                                        height: 16%;
+                                        margin-right:10px;
+                                    }
+                                </style>
+                                <div class="image-container">
+                                    <img src="assets/images/abt/Akead_tech/BDD/table_client.png" >
+                                    <img src="assets/images/abt/Akead_tech/BDD/table_favorite.png" >
+                                    <img src="assets/images/abt/Akead_tech/BDD/table_project.png" >
+                                    <img src="assets/images/abt/Akead_tech/BDD/table_ProjectToDo.png" >
+                                    <img src="assets/images/abt/Akead_tech/BDD/table_subproject.png">
+                                </div>
+
+                                <p style="width:800pt;margin-bottom:10px">Un exemple de code Dart et son rendu visuel est présenté ci-dessous.</p>
+                                <img src="assets/images/abt/Akead_tech/exemple_codes_Dart.png" >
+
+                                <p style="width:800pt;margin-bottom:10px">Nous avons également élaboré les pages suivantes.</p>
+                                <a href="mes_projet.html#projet10"><i class="far fa-eye"></i> Voir le projet</i></a>
+
+                                <p style="width:800pt;margin-bottom:10px">Enfin, voici le planning d'organisation sous forme de diagramme de Gantt.</p>
+                                <img src="assets/images/abt/Akead_tech/gantt.png">
 
                                 <br><br><br>
                                 <div style="text-align: center;">
-                                    <a href="mes_projet.html#projet10">
-                                        <i class="far fa-eye"></i> Voir le projet</i></a>
-                                    <span class="button-space"></span>
                                     <a href="assets/images/sevilog/Suivi_de_stage.pdf"><i class="fas fa-file"></i> Mon
                                         suivi de stage n°1</a>
                                 </div>
