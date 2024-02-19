@@ -1359,9 +1359,235 @@
 
                                 <h2 id="stage2">Stage 2ième année
                                 </h2>
+                                <h3 style="color:#E31C25">OCF-EST</h3>
+                                <br>
+                                <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de l'entreprise</h4>
+                                <p style="width:800pt;margin-bottom:10px"> 
+                                    OCF-EST est un Centre de Formation d'Apprentis basé à Strasbourg, spécialisé dans les formations en alternance. 
+                                Elle propose des formations tel que le BTS Gestion de la PME, le BTS Négociation et Digitalisation de la Relation Client, 
+                                ainsi que des Titres Professionnels tels que Manager d’Unité Marchande, Conseiller de Vente, Secrétaire Assistant Médico-Social, 
+                                et le CAP Accompagnant Éducatif à la Petite Enfance.</p>
+                                    
                                 <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation du
                                     projet</h4>
-                                <p style="width:800pt;margin-bottom:10px">...</p>
+                                <p style="width:800pt;margin-bottom:10px">
+Ma mission consistait à développer une page de connexion et d'inscription ainsi qu'un formulaire de candidature pour le site web d'OCF-EST,
+ réalisé sous le CMS WordPress. Pour ce faire, j'ai utilisé des extensions disponibles sur WordPress et établi des liens avec 
+ phpMyAdmin pour assurer le bon fonctionnement de ces fonctionnalités. Mon travail a impliqué la conception, la configuration et 
+ l'intégration de ces éléments dans le site existant, en veillant à ce qu'ils répondent aux besoins spécifiques de l'organisation.</p>
+ <style>
+    .tourne img{
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+    .tourne img:hover{
+        transform:rotate3d(0,1,0,180deg);
+    }
+</style>
+<style>
+    .surligner2 {
+        position: relative;
+        /* Ajoutez une position relative */
+    }
+
+    .surligner2::before {
+        content: " ";
+        /* Contenu vide pour créer le soulignement */
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        /* Hauteur du soulignement */
+        background: #E31C25;
+        /* Couleur du soulignement */
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        /* Commencez par une échelle nulle */
+        transform-origin: bottom left;
+        transition: transform 0.3s ease;
+    }
+
+    .surligner2:hover::before {
+        transform: scaleX(1);
+        /* Développez le soulignement au survol */
+    }
+</style>                                            
+
+<div class="cimg">
+
+<div style="display: flex; flex-direction: row;">
+
+<div style="text-align: center; margin-right: 150px;">
+<div class="tourne">
+    <img style="width: 500px; margin-left: 200px;"
+        src="assets/images/abt/ocfest/ocf-est_menu_genral.png" title="site web ocf-est">
+</div>
+</div>
+
+<div style="text-align: center; margin-right: 20px; margin-top: 50px">
+    <div class="tourne">
+        <img style="width: 100px" src="assets/images/abt/ocfest/WordPress_blue_logo.svg.png"
+            title="Logo WordPress">
+    </div>
+</div>
+</div>
+</div>
+<br>
+<!-- 
+        <div style="text-align: center;">
+        <a href=""><i class="far fa-eye"></i> Voir le projet</a>
+        </div>
+-->
+<p style="width:800pt;margin-bottom:10px">Voici les pages que j'ai créer :</p>
+
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slides">
+                <div id="slides__1" class="slide">
+                  <a class="slide__prev" href="#slides__4" title="Next"></a>
+                  <a class="slide__next" href="#slides__2" title="Next"></a>
+                </div>
+                <div id="slides__2" class="slide">
+                  <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                  <a class="slide__next" href="#slides__3" title="Next"></a>
+                </div>
+                <div id="slides__3" class="slide">
+                  <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                  <a class="slide__next" href="#slides__4" title="Next"></a>
+                </div>
+                <div id="slides__4" class="slide">
+                  <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                  <a class="slide__next" href="#slides__1" title="Prev"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <style>
+            .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.slider {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.slides {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 400px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    background: white;
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+}
+
+.slide__text {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.slide a {
+    background: none;
+    border: none;
+}
+
+a.slide__prev,
+.slider::before {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 5%;
+}
+
+a.slide__next,
+.slider::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 5%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+    position: absolute;
+    top: 48%;
+    width: 35px;
+    height: 35px;
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+  content: '';
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+/* Background images for slides */
+#slides__4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('assets/images/abt/ocfest/Politique_de_confidentialité1.png');
+}
+
+#slides__1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('assets/images/abt/ocfest/ocf-est-connexion.png');
+}
+
+#slides__2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('assets/images/abt/ocfest/ocf-est-inscription.png');
+}
+#slides__3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('assets/images/abt/ocfest/candidature1.png');
+}
+          </style>
+       
+
+
+
+    </div>
                             </div>
                         </div>
                         <div class="inter">
