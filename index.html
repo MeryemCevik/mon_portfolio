@@ -833,6 +833,28 @@
                                                         de mot de passe</p>
                                                 </div>
                                             </li>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/rgpd.png">
+                                                        <div class="inner-content">
+                                                            <a href="mes_projet.html#projet16">Voir</a>
+                                                        </div>
+                                                    </figure>
+                                                    <p style="color:white;font-style: italic;text-align: center">Réalisation PCA et PRA</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="_ok-vd_zs">
+                                                    <figure>
+                                                        <img src="assets/images/abt/Windev.png">
+                                                        <div class="inner-content">
+                                                            <a href="mes_projet.html#projet17">Voir</a>
+                                                        </div>
+                                                    </figure>
+                                                    <p style="color:white;font-style: italic;text-align: center">Réalisation PCA et PRA</p>
+                                                </div>
+                                            </li>
                                         </ol>
                                     </div>
                                 </div>
@@ -1433,70 +1455,100 @@
                                 <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation du
                                     projet</h4>
                                 <p style="width:800pt;margin-bottom:10px">
-Ma mission consistait à développer une page de connexion et d'inscription ainsi qu'un formulaire de candidature pour le site web d'OCF-EST,
- réalisé sous le CMS WordPress. Pour ce faire, j'ai utilisé des extensions disponibles sur WordPress pour assurer le bon fonctionnement de ces fonctionnalités. Mon travail a impliqué la conception, la configuration et 
- l'intégration de ces éléments dans le site existant, en veillant à ce qu'ils répondent aux besoins spécifiques de l'organisation.</p>
- <style>
-    .tourne img{
-        -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -ms-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s;
-    }
-    .tourne img:hover{
-        transform:rotate3d(0,1,0,180deg);
-    }
-</style>
-<style>
-    .surligner2 {
-        position: relative;
-        /* Ajoutez une position relative */
-    }
+                                    Ma mission consistait à développer une page de connexion et d'inscription ainsi qu'un formulaire de candidature pour le site 
+                                    web d'OCF-EST, réalisé sous le CMS WordPress. WordPress est un système de gestion de contenu (CMS) open source largement utilisé 
+                                    pour la création de sites web. Il offre une interface conviviale pour la gestion du contenu et permet une personnalisation avancée 
+                                    grâce à ses thèmes et ses extensions.</p>
+                                    
+                                    <style>
+                                        .tourne img{
+                                            -webkit-transition: all 0.2s;
+                                            -moz-transition: all 0.2s;
+                                            -ms-transition: all 0.2s;
+                                            -o-transition: all 0.2s;
+                                            transition: all 0.2s;
+                                        }
+                                        .tourne img:hover{
+                                            transform:rotate3d(0,1,0,180deg);
+                                        }
+                                    </style>
+                                    <style>
+                                        .surligner2 {
+                                            position: relative;
+                                            /* Ajoutez une position relative */
+                                        }
+                                    
+                                        .surligner2::before {
+                                            content: " ";
+                                            /* Contenu vide pour créer le soulignement */
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 2px;
+                                            /* Hauteur du soulignement */
+                                            background: #E31C25;
+                                            /* Couleur du soulignement */
+                                            bottom: 0;
+                                            left: 0;
+                                            transform: scaleX(0);
+                                            /* Commencez par une échelle nulle */
+                                            transform-origin: bottom left;
+                                            transition: transform 0.3s ease;
+                                        }
+                                    
+                                        .surligner2:hover::before {
+                                            transform: scaleX(1);
+                                            /* Développez le soulignement au survol */
+                                        }
+                                    </style>                                            
+                                    
+                                    <div class="cimg">
+                                    
+                                    <div style="display: flex; flex-direction: row;">
+                                    
+                                    <div style="text-align: center; margin-right: 150px;">
+                                    <div class="tourne">
+                                        <img style="width: 500px; margin-left: 200px;"
+                                            src="assets/images/abt/ocfest/ocf-est_menu_genral.png" title="site web ocf-est">
+                                    </div>
+                                    </div>
+                                    
+                                    <div style="text-align: center; margin-right: 20px; margin-top: 50px">
+                                        <div class="tourne">
+                                            <img style="width: 100px" src="assets/images/abt/ocfest/WordPress_blue_logo.svg.png"
+                                                title="Logo WordPress">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <br>
 
-    .surligner2::before {
-        content: " ";
-        /* Contenu vide pour créer le soulignement */
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        /* Hauteur du soulignement */
-        background: #E31C25;
-        /* Couleur du soulignement */
-        bottom: 0;
-        left: 0;
-        transform: scaleX(0);
-        /* Commencez par une échelle nulle */
-        transform-origin: bottom left;
-        transition: transform 0.3s ease;
-    }
+                                    <p style="width:800pt;margin-bottom:10px">Pour ce projet, j'ai utilisé des extensions disponibles sur WordPress pour assurer le bon fonctionnement de ces fonctionnalités. 
+                                    L'extension <span class="surligner1">Contact Form 7</span> a été utilisée pour créer des formulaires de contact personnalisés, tandis que <span class="surligner1">Forminator</span>
+                                     a été employé pour des formulaires plus complexes nécessitant des fonctionnalités avancées telles que des champs conditionnels ou des 
+                                     intégrations tierces.</p>
+                                    
+                                     <p style="width:800pt;margin-bottom:10px">
+                                        <strong>Développement sous WordPress</strong>
+                                        <br>
+                                        WordPress repose sur une architecture PHP et utilise une base de données MySQL pour stocker le contenu du site. 
+                                        Le développement sous WordPress implique la création
+                                        de thèmes et de plugins personnalisés pour étendre les fonctionnalités de base du système.
+                                     </br></br>
 
-    .surligner2:hover::before {
-        transform: scaleX(1);
-        /* Développez le soulignement au survol */
-    }
-</style>                                            
+                                        Pour ce projet, j'ai développé des fonctionnalités personnalisées en utilisant surtout <span class="surligner1">HTML</span> en utilisant ces extensions.
+                                        Cela inclut la création de modèles de page spécifiques pour la page de connexion, la page d'inscription et le formulaire
+                                         de candidature, ainsi que l'ajout de fonctionnalités de validation et de sécurité pour garantir la fiabilité des données
+                                         soumises par les utilisateurs.
+                                     </br></br>
+                                        En parallèle, j'ai été chargé de créer une page dédiée à la <span class="surligner1">Politique de confidentialité</span> sur le site web. Cette tâche 
+                                         revêtait une importance capitale pour assurer la conformité aux réglementations en matière de protection des données, 
+                                         telles que le <span class="surligner1">Règlement général sur la protection des données (RGPD)</span>.La Politique de confidentialité était conçue pour 
+                                         informer clairement les utilisateurs sur la manière dont leurs données étaient collectées, utilisées et protégées sur
+                                          le site. Cette démarche visait à renforcer la transparence et la confiance des utilisateurs dans la gestion de 
+                                          leurs informations personnelles.
+                                    </p>
 
-<div class="cimg">
-
-<div style="display: flex; flex-direction: row;">
-
-<div style="text-align: center; margin-right: 150px;">
-<div class="tourne">
-    <img style="width: 500px; margin-left: 200px;"
-        src="assets/images/abt/ocfest/ocf-est_menu_genral.png" title="site web ocf-est">
-</div>
-</div>
-
-<div style="text-align: center; margin-right: 20px; margin-top: 50px">
-    <div class="tourne">
-        <img style="width: 100px" src="assets/images/abt/ocfest/WordPress_blue_logo.svg.png"
-            title="Logo WordPress">
-    </div>
-</div>
-</div>
-</div>
-<br>
+ 
 <!-- 
         <div style="text-align: center;">
         <a href=""><i class="far fa-eye"></i> Voir le projet</a>
