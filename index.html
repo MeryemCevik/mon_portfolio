@@ -24,11 +24,10 @@
             </span>
             <ul>
                 <li><a onclick="hide_menu()" href="#home">Accueil</a></li>
-                <li><a onclick="hide_menu()" href="#bts_sio">BTS SIO</a></li>
                 <li><a onclick="hide_menu()" href="#cv">Mon CV</a></li>
                 <li><a onclick="hide_menu()" href="#about">Compétences et certificats</a></li>
                 <li><a onclick="hide_menu()" href="#resume">Expériences et formations</a></li>
-                <li><a onclick="hide_menu()" href="#portfolio">Portfolio</a></li>
+                <li><a onclick="hide_menu()" href="#portfolio">Mes Projets</a></li>
                 <li><a onclick="hide_menu()" href="#veille">Veilles technologiques</a></li>
                 <li><a onclick="hide_menu()" href="#stages">Stages</a></li>
                 <li><a onclick="hide_menu()" href="#contactMe">Contact</a></li>
@@ -71,14 +70,11 @@
                 <div class="my-wrapper">
 
                     <div class="name-box">
-                        <h1>Bienvenue sur mon portfolio <span>CEVIK Meryem</span></h1>
+                        <h1><span>CEVIK Meryem</span> développeuse informatique</h1>
                     </div>
                     <div class="welcome-box">
-                        <h3>Etudiante en 2ième année de <a href="#bts_sio" style="color:#fff" class="surligner">BTS
-                                SIO</a> (Services Informatiques aux Organisations) <span><a href="#slam"
-                                    style="color:#fff" class="surligner">option SLAM</a> (Solutions Logicielles et
-                                Applications Métier)</span></h3>
-                        </br><span style="color:white"><a
+                        <h3>Etudiante en développement informatique</span></h3>
+                        </br><span style="color:white"> <i class="fas fa-envelope"></i> <a
                                 href="mailto:mcevik6738@gmail.com">mcevik6738@gmail.com</a></span>
 
                     </div>
@@ -90,128 +86,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- =================================****BTS SIO****================================= -->
-    <section id="news">
-        <div class="container">
-            <div class="row">
-                <div class="wrapper">
-                    <div class="left-wrapper">
-                        <div class="content">
-                            <div class="title" id="bts_sio">
-                                <style>
-                                    .surligner1 {
-                                        position: relative;
-                                        /* Ajoutez une position relative */
-                                    }
-
-                                    .surligner1::before {
-                                        content: " ";
-                                        /* Contenu vide pour créer le soulignement */
-                                        position: absolute;
-                                        width: 100%;
-                                        height: 2px;
-                                        /* Hauteur du soulignement */
-                                        background: #E31C25;
-                                        /* Couleur du soulignement */
-                                        bottom: 0;
-                                        left: 0;
-                                        transform: scaleX(0);
-                                        /* Commencez par une échelle nulle */
-                                        transform-origin: bottom left;
-                                        transition: transform 0.3s ease;
-                                    }
-
-                                    .surligner1:hover::before {
-                                        transform: scaleX(1);
-                                        /* Développez le soulignement au survol */
-                                    }
-
-                                    .column-container {
-                                        display: flex;
-                                        justify-content: space-between;
-                                    }
-
-                                    .column {
-                                        flex: 1;
-                                        width: 49%;
-                                        /* Réglez la largeur comme vous le souhaitez */
-                                        margin-right: 2%;
-                                        /* Marge entre les colonnes */
-                                    }
-                                </style>
-                                <h3 style="color:#E31C25">Qu’est-ce que le BTS SIO ?</h3>
-                                <br>
-                                <p style="width:800pt;margin-bottom:10px">
-                                    <span class="surligner1">Le brevet de technicien supérieur services informatiques
-                                        aux organisations (BTS SIO) </span>s’adresse à ceux qui souhaitent se former en
-                                    deux ans aux métiers d’administrateur réseau ou de développeur pour intégrer
-                                    directement le marché du travail ou continuer des études dans le domaine de
-                                    l’informatique.
-                                </p>
-                                </br></br>
-                                <div class="column-container">
-                                    <div class="column">
-                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;">Le BTS
-                                            SIO option SISR</h4>
-                                        <p style="width:400pt;margin-bottom:10px">
-                                            <span class="surligner1">L’option Solutions d’infrastructure, systèmes et
-                                                réseaux</span> forme des professionnels des réseaux et équipements
-                                            informatiques (installation, maintenance, sécurité). Ces derniers sont en
-                                            mesure de répondre aux besoins informatiques d’une entreprise, tout en
-                                            accompagnant la transformation numérique. En sortant d’un BTS SIO SISR, vous
-                                            serez donc capable de gérer et d’administrer le réseau d’une société et
-                                            d’assurer sa sécurité et sa maintenance.
-                                            </br></br>
-                                        </p>
-                                        <p style="width:400pt;margin-bottom:10px">
-                                            Les techniciens supérieurs en informatique option SISR peuvent accéder aux
-                                            métiers de :
-                                        </p>
-                                        <p>
-                                            - Administrateur systèmes et réseaux</br>
-                                            - Informaticien support et déploiement</br>
-                                            - Pilote d’exploitation</br>
-                                            - Support systèmes et réseaux</br>
-                                            - Chargé d’études informatiques</br>
-                                            - Technicien d’infrastructure</br>
-                                            - etc.
-                                        </p>
-                                    </div>
-                                    <div class="column"></div>
-                                    <div class="column">
-                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;"
-                                            id="slam">Le BTS SIO option SLAM</h4>
-                                        <p style="width:400pt;margin-bottom:10px">
-                                            <span class="surligner1">L’option Solutions logicielles et applications
-                                                métiers</span> forme des spécialistes des logiciels (rédaction d’un
-                                            cahier des charges, formulation des besoins et spécifications, développement
-                                            d’applications, intégration au sein de la société).
-                                            </br></br>
-                                        </p>
-                                        <p style="width:400pt;margin-bottom:10px">
-                                            Les techniciens supérieurs en informatique option SLAM sont préparés aux
-                                            métiers de :
-                                        </p>
-                                        <p>
-                                            - Développeur d’applications informatiques</br>
-                                            - Développeur informatique</br>
-                                            - Analyste d’applications ou d’études</br>
-                                            - Analyste programmeur</br>
-                                            - Chargé d’études informatiques</br>
-                                            - Intégrateur web</br>
-                                            - etc.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inter">
-                            <h6>BTS SIO</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
     <!-- =================================*** CV *****================================= -->
 
@@ -230,18 +104,20 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-12">
                                 <div class="col-12">
-                                    <img style="border : 2px solid #fff;width:700px" src="CV/CV2.jpg">
-                                    <style>
+                                    <iframe src="cv/CV_Cevik_Meryem masqué.pdf" width="150%" height="500px"> </iframe>
+                                    <!-- <img style="border : 2px solid #fff;width:700px" src="CV/cv-conseils.png"> -->
+                                    <!-- <style>
                                         .button-space {
                                             margin-right: 50px;
                                         }
-                                    </style>
-                                    <br>
-                                    <br>
+                                    </style> -->
+                                    <!-- <br>
+                                    <br> -->
                                     <div class="send">
                                         <!--<a href="https://drive.google.com/file/d/1os04yYC15rSAOUftZChZbTsAP_OAH58c/view"><i class="fas fa-eye"></i> Visualiser</a>
                                             <span class="button-space"></span>-->
-                                        <a class="btn1" href="CV/CV2.pdf"><i class="fas fa-download"></i>
+                                        <a class="btn1" href="CV/CV_Cevik_Meryem masqué.pdf"><i
+                                                class="fas fa-download"></i>
                                             Télécharger</a>
 
                                     </div>
@@ -287,7 +163,7 @@
                             <div class="title">
                                 <h2>Certification <strong>Cisco</strong> sur les réseaux <span>2023</span></h2>
                                 <button class="btn-80"><a href="certif/certif_cisco.pdf"
-                                    style="color:white">Télécharger</a></button>
+                                        style="color:white">Télécharger</a></button>
                             </div>
                             <div class="title">
                                 <h2>Certification <strong>Openclassrooms</strong> HTML5/CSS3 en <span>2022</span></h2>
@@ -411,7 +287,7 @@
                         </div>
 
                         <!----------------- LOGICIELS---------------->
-                         <!---<div class="content _yt_er_ol">
+                        <!---<div class="content _yt_er_ol">
                             <span style="color:#fff">Logiciels</span>
                             <div class="_re_uy_iu">
                                 
@@ -420,7 +296,7 @@
                             </div>
                         </div>
                     -->
-                         
+
                         <div class="content _yt_er_ol">
                             <span style="color:#fff">Logiciels</span>
                             <div class="_re_uy_iu">
@@ -482,7 +358,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                         <div class="content _yt_er_ol">
                             <span style="color:#fff">Langues</span>
                             <div class="_re_uy_iu">
@@ -543,19 +419,18 @@
                             <div class="list-inner">
                                 <ol>
                                     <li>
-                                        <h4>Lycée des métiers René Cassin, Strasbourg</h4>
-                                        <h6>2ième année BTS SIO (Option SLAM)</h6>
-                                        <span>2022-2024</span>
-                                        <p>Formation en cours</p>
+                                        <h4>ENSISA Lumière, Mulhouse</h4>
+                                        <h6>Licence 3e année Informatique parcours Méthodes Informatiques Appliquées à
+                                            la Gestion des Entreprises - MIAGE</h6>
+                                        <span>2024-2025</span>
+                                        <p>...</p>
                                     </li>
-
                                     <li>
-                                        <h4>BUT informatique, Illkirch</h4>
-                                        <h6>1ère année</h6>
-                                        <span>2021-2022</span>
-                                        <p>Démission après la 1ère année</p>
+                                        <h4>Lycée des métiers René Cassin, Strasbourg</h4>
+                                        <h6>BTS SIO (Option SLAM)</h6>
+                                        <span>2022-2024</span>
+                                        <p>Diplôme avec mention</p>
                                     </li>
-
                                     <li>
                                         <h4>Lycée Jean Monnet, Strasbourg</h4>
                                         <h6>Bac Générale</h6>
@@ -575,10 +450,10 @@
                             <div class="list-inner">
                                 <ol>
                                     <li>
-                                        <h4>Pharmacie à Eschau</h4>
-                                        <h6>Stage découverte en 3ème</h6>
-                                        <span>2018 - pendant 1 semaine</span>
-                                        <p>Ranger, scanner, placer sur l'étagère les médicaments</p>
+                                        <h4>Stage en développement informatique</h4>
+                                        <h6>OCF-EST à STRASBOURG</h6>
+                                        <span>du 15/01/2024 au 16/02/2024 - pendant 5 semaines</span>
+                                        <p>Développment d'un site web avec le CMS WordPress</p>
                                     </li>
                                     <li>
                                         <h4>Stage en développement d'application mobile</h4>
@@ -588,10 +463,10 @@
                                             hebdomadaire</p>
                                     </li>
                                     <li>
-                                        <h4>Stage en développement informatique</h4>
-                                        <h6>OCF-EST à STRASBOURG</h6>
-                                        <span>du 15/01/2024 au 16/02/2024 - pendant 5 semaines</span>
-                                        <p>Développment d'un site web avec le CMS WordPress</p>
+                                        <h4>Pharmacie à Eschau</h4>
+                                        <h6>Stage découverte en 3ème</h6>
+                                        <span>2018 - pendant 1 semaine</span>
+                                        <p>Ranger, scanner, placer sur l'étagère les médicaments</p>
                                     </li>
                                 </ol>
                             </div>
@@ -611,6 +486,13 @@
                 <div class="my-wrapper">
                     <div class="wrapper-box">
                         <div class="content">
+                            <h2 style="color:#E31C25;text-align: center "><span>Mes Projets</span></h2>
+                            <p style="color:white;text-align: center">Pour en savoir plus sur le développement de ces projets, 
+                                consultez mon compte <a href="https://github.com/MeryemCevik" style="color:#fff" class="surligner">Github</a></p>
+                            <div style="text-align: center">
+                                <a href="https://github.com/MeryemCevik" target="_blank"
+                                    class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+                            </div>
                             <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="free-template" data-toggle="tab" href="#free"
@@ -690,8 +572,9 @@
                                                             <a href="mes_projet.html#projet19">Voir</a>
                                                         </div>
                                                     </figure>
-                                                    <p style="color:white;font-style: italic;text-align: center">Site web OpenEduc
-                                                        </p>
+                                                    <p style="color:white;font-style: italic;text-align: center">Site
+                                                        web OpenEduc
+                                                    </p>
                                                 </div>
                                             </li>
                                         </ol>
@@ -796,7 +679,8 @@
                                                             <a href="mes_projet.html#projet17">Voir</a>
                                                         </div>
                                                     </figure>
-                                                    <p style="color:white;font-style: italic;text-align: center">Application mobile sur la gestion des risques</p>
+                                                    <p style="color:white;font-style: italic;text-align: center">
+                                                        Application mobile sur la gestion des risques</p>
                                                 </div>
                                             </li>
                                         </ol>
@@ -865,7 +749,8 @@
                                                             <a href="mes_projet.html#projet16">Voir</a>
                                                         </div>
                                                     </figure>
-                                                    <p style="color:white;font-style: italic;text-align: center">Réalisation PCA et PRA</p>
+                                                    <p style="color:white;font-style: italic;text-align: center">
+                                                        Réalisation PCA et PRA</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -876,7 +761,8 @@
                                                             <a href="mes_projet.html#projet18">Voir</a>
                                                         </div>
                                                     </figure>
-                                                    <p style="color:white;font-style: italic;text-align: center">TP GLPI</p>
+                                                    <p style="color:white;font-style: italic;text-align: center">TP GLPI
+                                                    </p>
                                                 </div>
                                             </li>
                                         </ol>
@@ -888,7 +774,7 @@
                         </div>
                     </div>
                     <div class="inter">
-                        <h6>Portfolio</h6>
+                        <h6>Mes Projets</h6>
                     </div>
                 </div>
             </div>
@@ -983,10 +869,14 @@
                                                 <div class="card__description">L’apprentissage supervisé</div>
                                             </div>
                                             <div class="card__side card__side--back card__side--back-1">
-                                                <div class="card__description2">Cette technique implique l’utilisation d’un
-                                                    ensemble de données étiquetées (c’est-à-dire un ensemble de données où chaque
-                                                    exemple est étiqueté avec la réponse attendue) pour entraîner un modèle. Le modèle
-                                                    utilise ensuite ces données pour prédire les réponses sur de nouvelles données.</div>
+                                                <div class="card__description2">Cette technique implique l’utilisation
+                                                    d’un
+                                                    ensemble de données étiquetées (c’est-à-dire un ensemble de données
+                                                    où chaque
+                                                    exemple est étiqueté avec la réponse attendue) pour entraîner un
+                                                    modèle. Le modèle
+                                                    utilise ensuite ces données pour prédire les réponses sur de
+                                                    nouvelles données.</div>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -995,7 +885,8 @@
                                             </div>
                                             <div class="card__side card__side--back card__side--back-2">
                                                 <div class="card__description2">Cette technique consiste à trouver des
-                                                    schémas dans un ensemble de données non étiqueté, sans aucune indication préalable
+                                                    schémas dans un ensemble de données non étiqueté, sans aucune
+                                                    indication préalable
                                                     sur les réponses attendues.</div>
                                             </div>
                                         </div>
@@ -1005,23 +896,25 @@
                                             </div>
                                             <div class="card__side card__side--back card__side--back-3">
                                                 <div class="card__description2">Cette technique implique l’utilisation
-                                                    d’un système de récompense pour entraîner un modèle à prendre des décisions et à
+                                                    d’un système de récompense pour entraîner un modèle à prendre des
+                                                    décisions et à
                                                     apprendre à partir de ces décisions.</div>
                                             </div>
                                         </div>
                                     </div>
                                 </section>
                                 <br>
-                               <div class="column-container">
+                                <div class="column-container">
                                     <div class="column">
-                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;">Avantages</h4>
+                                        <h4 style="color:#fff;margin-bottom:10px;width:400pt;font-size: 18px;">Avantages
+                                        </h4>
                                         <p style="width:400pt;margin-bottom:10px">
                                             - Efficacité et automatisation accrues</br>
                                             - Amélioration des capacités de prise de décision</br>
                                             - Capacité à traiter de grandes quantités de données</br>
                                             - Potentiel de réduction des coûts</br>
                                             - Capacité à détecter des modèles et à faire des prédictions
-                                        </br></br>
+                                            </br></br>
                                         </p>
                                     </div>
                                     <div class="column"></div>
@@ -1034,7 +927,7 @@
                                             - Dépendance à l'égard de la qualité des données </br>
                                             - Biais dans les données ou les algorithmes </br>
                                             - Manque de transparence dans la prise de décision </br>
-                                            - Risque de perte d'emploi 
+                                            - Risque de perte d'emploi
                                             </br></br>
                                         </p>
                                     </div>
@@ -1048,70 +941,75 @@
                                         margin: 0;
                                         box-sizing: border-box;
                                     }
-                                
+
                                     .cont {
-                                        background: black; /* Fond noir */
+                                        background: black;
+                                        /* Fond noir */
                                         text-align: center;
                                         padding: 4em 0;
                                     }
-                                
+
                                     .cards {
                                         display: flex;
                                         justify-content: space-evenly;
                                     }
-                                
+
                                     .card {
-                                        width: 30%; /*largeur*/
+                                        width: 30%;
+                                        /*largeur*/
                                         position: relative;
-                                        height: 15em;/*hauteur*/
-                                        perspective: 150em; 
+                                        height: 15em;
+                                        /*hauteur*/
+                                        perspective: 150em;
                                         background-color: black;
                                     }
-                                
+
                                     .card__side {
                                         position: absolute;
                                         top: 0;
                                         left: 0;
                                         width: 100%;
-                                        height: 15em; /*hauteur*/
+                                        height: 15em;
+                                        /*hauteur*/
                                         backface-visibility: hidden;
                                         transition: all 0.6s ease;
                                         box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
                                     }
-                                
+
                                     .card__side--front {
                                         background-image: linear-gradient(to right bottom, #E31C25, #340c0e);
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
                                     }
-                                
+
                                     .card__side--back {
-                                        color:#fff;
+                                        color: #fff;
                                         transform: rotateY(180deg);
-                                        background-color: black; /* Fond noir */
+                                        background-color: black;
+                                        /* Fond noir */
                                     }
-                                
+
                                     .card__side--back-1 {
                                         background-image: linear-gradient(to right bottom, #820505, #ab2406);
                                     }
-                                
+
                                     .card__side--back-2 {
                                         background-image: linear-gradient(to right bottom, #ab2406, #ab4506);
                                     }
-                                
+
                                     .card__side--back-3 {
                                         background-image: linear-gradient(to right bottom, #ab4506, #ff9b30);
                                     }
-                                
+
                                     .card:hover .card__side--front {
                                         transform: rotateY(-180deg);
                                     }
-                                
+
                                     .card:hover .card__side--back {
                                         transform: rotate(0);
                                     }
-                                
+
                                     .card__description {
                                         /*text-transform: uppercase;*/
                                         font-weight: bold;
@@ -1125,7 +1023,7 @@
                                         padding: 1em 0;
                                         color: #fff;
                                     }
-                                    
+
                                     .card__description svg {
                                         width: 1.5em;
                                         height: 1.5em;
@@ -1135,89 +1033,151 @@
                                 <!---------------------- Partie actualités pour les veilles : --------------->
                                 <section class="news-section">
                                     <h4 style="font-size: 25px;">Actualités / Dernières évolutions :</h4>
-                                <!-- Réseaux sociaux -->
+                                    <!-- Réseaux sociaux -->
                                     <div class="news-cards-container">
-                                        <div class="news-card" onclick="window.open('https://www.blogdumoderateur.com/twitter-devoile-algorithme-recommandations-tweets/')">
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.blogdumoderateur.com/twitter-devoile-algorithme-recommandations-tweets/')">
                                             <p class="news-date">3 avril 2023</p>
-                                            <p class="news-description">Dernières avancées de <strong>Twitter</strong> avec la révélation de son algorithme de recommandations de tweets</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">Dernières avancées de <strong>Twitter</strong>
+                                                avec la révélation de son algorithme de recommandations de tweets</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Réseaux sociaux -->
-                                        <div class="news-card" onclick="window.open('https://www.silicon.fr/netflix-infrastructure-machine-learning-469284.html')">
+                                        <!-- Réseaux sociaux -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.silicon.fr/netflix-infrastructure-machine-learning-469284.html')">
                                             <p class="news-date">5 juillet 2023</p>
-                                            <p class="news-description">Netflix a conçu une infrastructure de machine learning dédiée aux contenus multimédias, utilisant des outils open source tels que Conductor, Dagobah, Iceberg, Metaflow et Titus, pour détecter et sélectionner les séquences idéales pour des transitions entre scènes.</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">Netflix a conçu une infrastructure de machine
+                                                learning dédiée aux contenus multimédias, utilisant des outils open
+                                                source tels que Conductor, Dagobah, Iceberg, Metaflow et Titus, pour
+                                                détecter et sélectionner les séquences idéales pour des transitions
+                                                entre scènes.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Industries nucléaire -->
-                                        <div class="news-card" onclick="window.open('https://www.enerzine.com/31-capteurs-et-lapprentissage-automatique-pour-la-securite-des-reacteurs-nucleaires/73762-2023-11')">
+                                        <!-- Industries nucléaire -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.enerzine.com/31-capteurs-et-lapprentissage-automatique-pour-la-securite-des-reacteurs-nucleaires/73762-2023-11')">
                                             <p class="news-date">Novembre 2023</p>
-                                            <p class="news-description">Une équipe de scientifiques du Laboratoire national d’Argonne a développé un système d’apprentissage automatique utilisant 31 capteurs pour surveiller en continu le système de refroidissement des réacteurs nucléaires rapides refroidis au sodium, améliorant ainsi leur sécurité et leur efficacité.</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">Une équipe de scientifiques du Laboratoire
+                                                national d’Argonne a développé un système d’apprentissage automatique
+                                                utilisant 31 capteurs pour surveiller en continu le système de
+                                                refroidissement des réacteurs nucléaires rapides refroidis au sodium,
+                                                améliorant ainsi leur sécurité et leur efficacité.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Santé -->
-                                        <div class="news-card" onclick="window.open('https://www.ladepeche.fr/2023/10/18/lapprentissage-automatique-au-service-de-la-maladie-parkinson-11530353.php')">
+                                        <!-- Santé -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.ladepeche.fr/2023/10/18/lapprentissage-automatique-au-service-de-la-maladie-parkinson-11530353.php')">
                                             <p class="news-date">18 octobre 2023</p>
-                                            <p class="news-description">L'utilisation d'algorithmes d'apprentissage automatique pour analyser les données de capteurs portés par des patients atteints de la maladie de Parkinson permet un suivi précis de la progression des symptômes moteurs, améliorant ainsi le diagnostic et facilitant le développement de traitements efficaces.</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">L'utilisation d'algorithmes d'apprentissage
+                                                automatique pour analyser les données de capteurs portés par des
+                                                patients atteints de la maladie de Parkinson permet un suivi précis de
+                                                la progression des symptômes moteurs, améliorant ainsi le diagnostic et
+                                                facilitant le développement de traitements efficaces.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Cybersécurité -->
-                                        <div class="news-card" onclick="window.open('https://atlantico.fr/article/decryptage/ces-foudroyants-resultats-obtenus-par-taiwan-en-introduisant-le-machine-learning-dans-ses-hopitaux-systeme-medical-france-antibiotiques-sante-intelligence-artificielle-guy-andre-pelouze')">
+                                        <!-- Cybersécurité -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://atlantico.fr/article/decryptage/ces-foudroyants-resultats-obtenus-par-taiwan-en-introduisant-le-machine-learning-dans-ses-hopitaux-systeme-medical-france-antibiotiques-sante-intelligence-artificielle-guy-andre-pelouze')">
                                             <p class="news-date">20 novembre 2023</p>
-                                            <p class="news-description">Le déploiement du Machine Learning à Taïwan dans les hôpitaux a permis d'optimiser les décisions médicales en utilisant des algorithmes capables d'analyser de grandes quantités de données médicales pour identifier des modèles et faire des prédictions précises. Cela a conduit à une amélioration des protocoles de traitement, réduisant ainsi la mortalité de 25% et les coûts des antibiotiques de 30% en moins d'un an.</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">Le déploiement du Machine Learning à Taïwan dans
+                                                les hôpitaux a permis d'optimiser les décisions médicales en utilisant
+                                                des algorithmes capables d'analyser de grandes quantités de données
+                                                médicales pour identifier des modèles et faire des prédictions précises.
+                                                Cela a conduit à une amélioration des protocoles de traitement,
+                                                réduisant ainsi la mortalité de 25% et les coûts des antibiotiques de
+                                                30% en moins d'un an.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Cybersécurité -->
-                                        <div class="news-card" onclick="window.open('https://www.actuia.com/contribution/clement-nadal/intelligence-artificielle-et-machine-learning-quelle-utilite-et-quels-avantages-dans-le-monde-de-la-cybersecurite/')">
+                                        <!-- Cybersécurité -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.actuia.com/contribution/clement-nadal/intelligence-artificielle-et-machine-learning-quelle-utilite-et-quels-avantages-dans-le-monde-de-la-cybersecurite/')">
                                             <p class="news-date">18 janvier 2024</p>
-                                            <p class="news-description">Intelligence artificielle et machine learning : quelle utilité et quels avantages dans le monde de la cybersécurité ?</p>
-                                            <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
+                                            <p class="news-description">Intelligence artificielle et machine learning :
+                                                quelle utilité et quels avantages dans le monde de la cybersécurité ?
+                                            </p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
                                         </div>
-                                <!-- Finance -->
-                                <div class="news-card" onclick="window.open('https://finance-heros.fr/machine-learning-finance/')">
-                                    <p class="news-date">Décembre 2023</p>
-                                    <p class="news-description">Le machine learning, utilisé dans la finance de marché, offre des opportunités prometteuses notamment pour l'analyse des données et la prise de décision, mais il présente également des risques liés à la complexité des algorithmes et à la nécessité de contrôle réglementaire.</p>
-                                    <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
-                                </div>
-                                <!-- Fraude -->
-                                <div class="news-card" onclick="window.open('https://www.silicon.fr/blablacar-machine-learning-fraude-473949.html')">
-                                    <p class="news-date">5 décembre 2023</p>
-                                    <p class="news-description">BlaBlaCar utilise un système de machine learning basé sur Kafka pour détecter les faux profils et trajets frauduleux, en s'inspirant des règles de Google pour éviter un décalage entre les performances d'entraînement et d'inférence, tout en assurant la qualité des caractéristiques et des annotations.</p>
-                                    <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
-                                </div>
-                                <!-- Déchiffrage -->
-                                <div class="news-card" onclick="window.open('https://www.ictjournal.ch/articles/2024-02-16/comment-le-machine-learning-a-permis-de-dechiffrer-dantiques-papyrus-carbonises')">
-                                    <p class="news-date">16 février 2024</p>
-                                    <p class="news-description">Des étudiants utilisant des techniques avancées de machine learning ont réussi à déchiffrer des textes antiques sur des papyrus carbonisés, en développant un modèle de détection de l'encre basé sur des micro-craquelures, permettant ainsi une lecture progressive des passages, notamment un texte épicurien.</p>
-                                    <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
-                                </div>
-                                <!-- Chimie -->
-                                <div class="news-card" onclick="window.open('https://issues.fr/lapprentissage-automatique-rencontre-la-chimie-le-nouveau-modele-du-mit-predit-les-etats-de-transition-a-une-vitesse-sans-precedent/')">
-                                    <p class="news-date">18 février 2024</p>
-                                    <p class="news-description">Le MIT a développé un modèle informatique basé sur l'intelligence artificielle permettant de prédire rapidement et avec précision les structures d'états de transition lors de réactions chimiques, offrant ainsi des possibilités de conception de nouveaux catalyseurs et de modélisation de réactions complexes.</p>
-                                    <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
-                                </div>
-                                <!-- Médecine, yeux-->
-                                <div class="news-card" onclick="window.open('https://trustmyscience.com/nouvelle-methode-apprentissage-automatique-reproduit-codage-sensoriel-retine/')">
-                                    <p class="news-date">15 février 2024</p>
-                                    <p class="news-description">Des chercheurs de l'EPFL ont développé une méthode d'apprentissage automatique pour reproduire le codage sensoriel de la rétine, ouvrant ainsi la voie à des améliorations potentielles des implants rétiniens et d'autres prothèses sensorielles.</p>
-                                    <img class="news-icon" src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png"/>
-                                </div>
+                                        <!-- Finance -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://finance-heros.fr/machine-learning-finance/')">
+                                            <p class="news-date">Décembre 2023</p>
+                                            <p class="news-description">Le machine learning, utilisé dans la finance de
+                                                marché, offre des opportunités prometteuses notamment pour l'analyse des
+                                                données et la prise de décision, mais il présente également des risques
+                                                liés à la complexité des algorithmes et à la nécessité de contrôle
+                                                réglementaire.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
+                                        </div>
+                                        <!-- Fraude -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.silicon.fr/blablacar-machine-learning-fraude-473949.html')">
+                                            <p class="news-date">5 décembre 2023</p>
+                                            <p class="news-description">BlaBlaCar utilise un système de machine learning
+                                                basé sur Kafka pour détecter les faux profils et trajets frauduleux, en
+                                                s'inspirant des règles de Google pour éviter un décalage entre les
+                                                performances d'entraînement et d'inférence, tout en assurant la qualité
+                                                des caractéristiques et des annotations.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
+                                        </div>
+                                        <!-- Déchiffrage -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://www.ictjournal.ch/articles/2024-02-16/comment-le-machine-learning-a-permis-de-dechiffrer-dantiques-papyrus-carbonises')">
+                                            <p class="news-date">16 février 2024</p>
+                                            <p class="news-description">Des étudiants utilisant des techniques avancées
+                                                de machine learning ont réussi à déchiffrer des textes antiques sur des
+                                                papyrus carbonisés, en développant un modèle de détection de l'encre
+                                                basé sur des micro-craquelures, permettant ainsi une lecture progressive
+                                                des passages, notamment un texte épicurien.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
+                                        </div>
+                                        <!-- Chimie -->
+                                        <div class="news-card"
+                                            onclick="window.open('https://issues.fr/lapprentissage-automatique-rencontre-la-chimie-le-nouveau-modele-du-mit-predit-les-etats-de-transition-a-une-vitesse-sans-precedent/')">
+                                            <p class="news-date">18 février 2024</p>
+                                            <p class="news-description">Le MIT a développé un modèle informatique basé
+                                                sur l'intelligence artificielle permettant de prédire rapidement et avec
+                                                précision les structures d'états de transition lors de réactions
+                                                chimiques, offrant ainsi des possibilités de conception de nouveaux
+                                                catalyseurs et de modélisation de réactions complexes.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
+                                        </div>
+                                        <!-- Médecine, yeux-->
+                                        <div class="news-card"
+                                            onclick="window.open('https://trustmyscience.com/nouvelle-methode-apprentissage-automatique-reproduit-codage-sensoriel-retine/')">
+                                            <p class="news-date">15 février 2024</p>
+                                            <p class="news-description">Des chercheurs de l'EPFL ont développé une
+                                                méthode d'apprentissage automatique pour reproduire le codage sensoriel
+                                                de la rétine, ouvrant ainsi la voie à des améliorations potentielles des
+                                                implants rétiniens et d'autres prothèses sensorielles.</p>
+                                            <img class="news-icon"
+                                                src="https://img.icons8.com/material-outlined/24/FFFFFF/external-link.png" />
+                                        </div>
 
                                     </div>
                                 </section>
-                                
+
                                 <style>
                                     .news-section {
                                         text-align: center;
                                         padding: 20px;
                                     }
-                                
+
                                     .news-cards-container {
                                         display: flex;
                                         justify-content: space-around;
                                         flex-wrap: wrap;
                                     }
-                                
+
                                     .news-card {
                                         background-color: #333;
                                         color: #FFF;
@@ -1227,129 +1187,132 @@
                                         cursor: pointer;
                                         transition: background-color 0.3s ease;
                                         position: relative;
-                                        width: 45%; /* Ajustez cette valeur pour définir la largeur des cartes */
+                                        width: 45%;
+                                        /* Ajustez cette valeur pour définir la largeur des cartes */
                                     }
-                                
+
                                     .news-card:hover {
                                         background-color: #8B0000;
                                     }
-                                
+
                                     .news-date {
                                         font-size: 18px;
                                         font-weight: bold;
                                         margin-bottom: 5px;
                                     }
-                                
+
                                     .news-description {
                                         font-size: 16px;
                                     }
-                                
+
                                     .news-icon {
                                         position: absolute;
                                         bottom: 10px;
                                         right: 10px;
                                     }
                                 </style>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inter">
-                                    <h6>Veilles</h6>
-                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- =================================**** STAGES ****================================= -->
-                 <section id="news">
-                    <div class="container">
-                        <div class="row">
-                            <div class="wrapper">
-                                <div class="left-wrapper">
-                                    <div class="content">
-                                        <div class="title" id="stages">
-                                            <h2><span>L'épreuve E4</span></h2>
-                                            <h4 style="color:#fff;margin-bottom:10px">L’épreuve E4 est une épreuve clé du BTS SIO, elle doit être composée de minimun deux projets ayant un contexte commun en rapport avec l’option choisie (SLAM pour mon cas).</h4>
-                                            <br> <br> 
-                                                <a style="margin-left: 20px;margin-right: 20px;" href=#stage1>Stage n°1</a>
-                                                <span class="button-space"></span>
-                                                <a href=#stage2>Stage n°2</a>
-                                                <span class="button-space"></span>
-                                                <a href="autres/Tableau_de_synthese.pdf">Tableau de synthèse</a>
-                                            <br> <br> <br>
-                                                <!-- Tableau_de_synthese.pdf -->
-                                            <h2 id="stage1">Stage 1ière année</h2>
-                                            <h3 style="color:#E31C25">SEVILOG</h3>
-                                            <br>
-                                            <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de l'entreprise</h4>
-                                            <p style="width:800pt;margin-bottom:10px"> 
-                                                Sevilog est une société de service dans le domaine Informatique (applications spécifiques, site Internet et formation). 
-                                                Elle édite des logiciels de gestion commerciale destinés aux P.M.E. sous la marque AKEAD®.</p>
-                                                
-                                                <style>
-                                                .tourne img{
-                                                    -webkit-transition: all 0.2s;
-                                                    -moz-transition: all 0.2s;
-                                                    -ms-transition: all 0.2s;
-                                                    -o-transition: all 0.2s;
-                                                    transition: all 0.2s;
-                                                }
-                                                .tourne img:hover{
-                                                    transform:rotate3d(0,1,0,180deg);
-                                                }
-                                            </style>
-                                            <style>
-    
-                                                .cadre-images {
-                                                    border: 2px solid #3a3737; 
-                                                    display: flex; 
-                                                }
-                                            
-                                                .cadre-images img {
-                                                    max-width: 100%; 
-                                                    height: auto; 
-                                                }
-    
-                                                .cadre-images img:first-child {
-                                                    margin-left: 20px; 
-                                                    margin-top: 20px; 
-                                                    margin-bottom: 0px;
-                                                }
-                                                .cadre-images img:last-child {
-                                                    margin-bottom: 0px;
-                                                }
-                                                .cadre-images:hover {
-                                                    border-color: #fff;
-                                                }
-                                            </style>
-                                            <style>
-                                                .surligner2 {
-                                                    position: relative;
-                                                    /* Ajoutez une position relative */
-                                                }
-            
-                                                .surligner2::before {
-                                                    content: " ";
-                                                    /* Contenu vide pour créer le soulignement */
-                                                    position: absolute;
-                                                    width: 100%;
-                                                    height: 2px;
-                                                    /* Hauteur du soulignement */
-                                                    background: #E31C25;
-                                                    /* Couleur du soulignement */
-                                                    bottom: 0;
-                                                    left: 0;
-                                                    transform: scaleX(0);
-                                                    /* Commencez par une échelle nulle */
-                                                    transform-origin: bottom left;
-                                                    transition: transform 0.3s ease;
-                                                }
-            
-                                                .surligner2:hover::before {
-                                                    transform: scaleX(1);
-                                                    /* Développez le soulignement au survol */
-                                                }
-                                            </style>                                            
+                    <div class="inter">
+                        <h6>Veilles</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================**** STAGES ****================================= -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="left-wrapper">
+                        <div class="content">
+                            <div class="title" id="stages">
+                                <h2><span>Mes stages</span></h2>
+                                <br>
+                                <a style="margin-left: 20px;margin-right: 20px;" href=#stage1>Stage n°1</a>
+                                <span class="button-space"></span>
+                                <a href=#stage2>Stage n°2</a>
+                                <br> <br> <br>
+                                <!-- Tableau_de_synthese.pdf -->
+                                <h2 id="stage1">Stage n°1</h2>
+                                <h3 style="color:#E31C25">SEVILOG</h3>
+                                <br>
+                                <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de
+                                    l'entreprise</h4>
+                                <p style="width:800pt;margin-bottom:10px">
+                                    Sevilog est une société de service dans le domaine Informatique (applications
+                                    spécifiques, site Internet et formation).
+                                    Elle édite des logiciels de gestion commerciale destinés aux P.M.E. sous la marque
+                                    AKEAD®.</p>
+
+                                <style>
+                                    .tourne img {
+                                        -webkit-transition: all 0.2s;
+                                        -moz-transition: all 0.2s;
+                                        -ms-transition: all 0.2s;
+                                        -o-transition: all 0.2s;
+                                        transition: all 0.2s;
+                                    }
+
+                                    .tourne img:hover {
+                                        transform: rotate3d(0, 1, 0, 180deg);
+                                    }
+                                </style>
+                                <style>
+                                    .cadre-images {
+                                        border: 2px solid #3a3737;
+                                        display: flex;
+                                    }
+
+                                    .cadre-images img {
+                                        max-width: 100%;
+                                        height: auto;
+                                    }
+
+                                    .cadre-images img:first-child {
+                                        margin-left: 20px;
+                                        margin-top: 20px;
+                                        margin-bottom: 0px;
+                                    }
+
+                                    .cadre-images img:last-child {
+                                        margin-bottom: 0px;
+                                    }
+
+                                    .cadre-images:hover {
+                                        border-color: #fff;
+                                    }
+                                </style>
+                                <style>
+                                    .surligner2 {
+                                        position: relative;
+                                        /* Ajoutez une position relative */
+                                    }
+
+                                    .surligner2::before {
+                                        content: " ";
+                                        /* Contenu vide pour créer le soulignement */
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 2px;
+                                        /* Hauteur du soulignement */
+                                        background: #E31C25;
+                                        /* Couleur du soulignement */
+                                        bottom: 0;
+                                        left: 0;
+                                        transform: scaleX(0);
+                                        /* Commencez par une échelle nulle */
+                                        transform-origin: bottom left;
+                                        transition: transform 0.3s ease;
+                                    }
+
+                                    .surligner2:hover::before {
+                                        transform: scaleX(1);
+                                        /* Développez le soulignement au survol */
+                                    }
+                                </style>
 
                                 <div class="cimg">
 
@@ -1385,31 +1348,48 @@
                                 <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation du
                                     projet</h4>
                                 <p style="width:800pt;margin-bottom:10px">Ce stage consistait à développer une nouvelle
-                                    partie appelée 'Gestion de projets’ dans l’application <span class="surligner2">AKEAD TECH avec Flutter</span>.
+                                    partie appelée 'Gestion de projets’ dans l’application <span
+                                        class="surligner2">AKEAD TECH avec Flutter</span>.
                                     L'application Akead Tech permet la création automatique de projets pour chaque
                                     clients et l'ajout de listes de tâches pour
                                     suivre leur avancement.
                                 </p>
-                                <p style="width:800pt;margin-bottom:10px">Le responsable de l'entreprise nous a informés 
-                                    que le personnel chargé des maintenances, des installations de logiciels et de la gestion 
-                                    du matériel souhaitait pouvoir suivre l'avancement de leurs tâches pour chaque client. Ils souhaitaient 
-                                    être informés en temps réel afin de ne pas perdre de temps dans la rédaction des tâches.
+                                <p style="width:800pt;margin-bottom:10px">Le responsable de l'entreprise nous a informés
+                                    que le personnel chargé des maintenances, des installations de logiciels et de la
+                                    gestion
+                                    du matériel souhaitait pouvoir suivre l'avancement de leurs tâches pour chaque
+                                    client. Ils souhaitaient
+                                    être informés en temps réel afin de ne pas perdre de temps dans la rédaction des
+                                    tâches.
                                 </p>
-                                <p style="width:800pt;margin-bottom:10px">En collaboration avec l'équipe informatique, nous avons élaboré une 
-                                    liste des éléments à intégrer dans <span class="surligner2"><strong>l'interface utilisateurs et la base de données</strong></span>. Ensuite, nous avons expliqué 
-                                    ces modifications aux clients, c'est-à-dire au personnel de l'entreprise. Nous avons également présenté un projet ergonomique, 
+                                <p style="width:800pt;margin-bottom:10px">En collaboration avec l'équipe informatique,
+                                    nous avons élaboré une
+                                    liste des éléments à intégrer dans <span class="surligner2"><strong>l'interface
+                                            utilisateurs et la base de données</strong></span>. Ensuite, nous avons
+                                    expliqué
+                                    ces modifications aux clients, c'est-à-dire au personnel de l'entreprise. Nous avons
+                                    également présenté un projet ergonomique,
                                     facilitant la manipulation grâce à des cases à cocher.
                                 </p>
 
-                                <p style="width:800pt;margin-bottom:10px">J'ai pris en charge le développement de l'interface utilisateur de l'application en utilisant 
-                                    le framework <span class="surligner2">Flutter</span> (langage de programmation Dart) avec l'éditeur <span class="surligner2">VS Code</span>. Mon tuteur s'est occupé du développement du back-end 
-                                    en utilisant le framework <span class="surligner2">Symfony</span> (langage de programmation PHP). Nous testions l'application avec <span class="surligner2">Android Studio</span>. Chaque semaine, 
-                                    nous recueillions les avis des autres membres de l'équipe pour apporter des modifications ou ajouter de nouvelles fonctionnalités 
-                                    à implémenter. Nous utilisions <span class="surligner2">Github</span> pour communiquer nos réalisations, ainsi que pour sauvegarder et versionner nos travaux. 
-                                    <span class="surligner2" href="">La méthode Scrum</span> était utilisée pour gérer le processus de développement.
+                                <p style="width:800pt;margin-bottom:10px">J'ai pris en charge le développement de
+                                    l'interface utilisateur de l'application en utilisant
+                                    le framework <span class="surligner2">Flutter</span> (langage de programmation Dart)
+                                    avec l'éditeur <span class="surligner2">VS Code</span>. Mon tuteur s'est occupé du
+                                    développement du back-end
+                                    en utilisant le framework <span class="surligner2">Symfony</span> (langage de
+                                    programmation PHP). Nous testions l'application avec <span
+                                        class="surligner2">Android Studio</span>. Chaque semaine,
+                                    nous recueillions les avis des autres membres de l'équipe pour apporter des
+                                    modifications ou ajouter de nouvelles fonctionnalités
+                                    à implémenter. Nous utilisions <span class="surligner2">Github</span> pour
+                                    communiquer nos réalisations, ainsi que pour sauvegarder et versionner nos travaux.
+                                    <span class="surligner2" href="">La méthode Scrum</span> était utilisée pour gérer
+                                    le processus de développement.
                                 </p>
-                                <p style="width:800pt;margin-bottom:10px">Voici le schéma un diagramme entité-association</p>
-                                <img style="width: 60%; height: 60%;" src="assets/images/abt/MCD_stage1.png" >
+                                <p style="width:800pt;margin-bottom:10px">Voici le schéma un diagramme
+                                    entité-association</p>
+                                <img style="width: 60%; height: 60%;" src="assets/images/abt/MCD_stage1.png">
                                 <!-- <p style="width:800pt;margin-bottom:10px">Voici les tables que nous avons créées :
                                 </br>-   Client, SubProject, ProjectTodo, Project, Favorite</p>
                                 <style>
@@ -1434,297 +1414,330 @@
                                     <img src="assets/images/abt/Akead_tech/BDD/table_subproject.png">
                                 </div> -->
 
-                                <p style="width:800pt;margin-bottom:10px">Un exemple de code Dart et son rendu visuel est présenté ci-dessous.</p>
-                                <img style="width: 60%; height: 60%;" src="assets/images/abt/Akead_tech/exemple_codes_Dart.png" >
+                                <p style="width:800pt;margin-bottom:10px">Un exemple de code Dart et son rendu visuel
+                                    est présenté ci-dessous.</p>
+                                <img style="width: 60%; height: 60%;"
+                                    src="assets/images/abt/Akead_tech/exemple_codes_Dart.png">
 
-                                <p style="width:800pt;margin-bottom:10px">Nous avons également élaboré les pages suivantes.</p>
+                                <p style="width:800pt;margin-bottom:10px">Nous avons également élaboré les pages
+                                    suivantes.</p>
                                 <a href="mes_projet.html#projet10"><i class="far fa-eye"></i> Voir le projet</i></a>
 
-                                <p style="width:800pt;margin-bottom:10px">Enfin, voici le planning d'organisation sous forme de diagramme de Gantt.</p>
+                                <p style="width:800pt;margin-bottom:10px">Enfin, voici le planning d'organisation sous
+                                    forme de diagramme de Gantt.</p>
                                 <img style="width: 60%; height: 60%;" src="assets/images/abt/Akead_tech/gantt.png">
 
                                 <br><br><br>
-                                    <a href="assets/images/sevilog/Suivi_de_stage.pdf"><i class="fas fa-file"></i> Mon
-                                        suivi de stage n°1</a>
+                                <a href="assets/images/sevilog/Suivi_de_stage.pdf"><i class="fas fa-file"></i> Mon
+                                    suivi de stage n°1</a>
                                 <br><br><br>
 
-                                <h2 id="stage2">Stage 2ième année
+                                <h2 id="stage2">Stage n°2
                                 </h2>
                                 <h3 style="color:#E31C25">OCF-EST</h3>
                                 <br>
-                                <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de l'entreprise</h4>
-                                <p style="width:800pt;margin-bottom:10px"> 
-                                    OCF-EST est un Centre de Formation d'Apprentis basé à Strasbourg, spécialisé dans les formations en alternance. 
-                                Elle propose des formations tel que le BTS Gestion de la PME, le BTS Négociation et Digitalisation de la Relation Client, 
-                                ainsi que des Titres Professionnels tels que Manager d’Unité Marchande, Conseiller de Vente, Secrétaire Assistant Médico-Social, 
-                                et le CAP Accompagnant Éducatif à la Petite Enfance.</p>
-                                    
+                                <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation de
+                                    l'entreprise</h4>
+                                <p style="width:800pt;margin-bottom:10px">
+                                    OCF-EST est un Centre de Formation d'Apprentis basé à Strasbourg, spécialisé dans
+                                    les formations en alternance.
+                                    Elle propose des formations tel que le BTS Gestion de la PME, le BTS Négociation et
+                                    Digitalisation de la Relation Client,
+                                    ainsi que des Titres Professionnels tels que Manager d’Unité Marchande, Conseiller
+                                    de Vente, Secrétaire Assistant Médico-Social,
+                                    et le CAP Accompagnant Éducatif à la Petite Enfance.</p>
+
                                 <h4 style="color:#fff;margin-bottom:10px;width:800pt;font-size: 18px;">Présentation du
                                     projet</h4>
                                 <p style="width:800pt;margin-bottom:10px">
-                                    Ma mission consistait à développer une page de connexion et d'inscription ainsi qu'un formulaire de candidature pour le site 
-                                    web d'OCF-EST, réalisé sous le CMS WordPress. WordPress est un système de gestion de contenu (CMS) open source largement utilisé 
-                                    pour la création de sites web. Il offre une interface conviviale pour la gestion du contenu et permet une personnalisation avancée 
+                                    Ma mission consistait à développer une page de connexion et d'inscription ainsi
+                                    qu'un formulaire de candidature pour le site
+                                    web d'OCF-EST, réalisé sous le CMS WordPress. WordPress est un système de gestion de
+                                    contenu (CMS) open source largement utilisé
+                                    pour la création de sites web. Il offre une interface conviviale pour la gestion du
+                                    contenu et permet une personnalisation avancée
                                     grâce à ses thèmes et ses extensions.</p>
-                                    
-                                    <style>
-                                        .tourne img{
-                                            -webkit-transition: all 0.2s;
-                                            -moz-transition: all 0.2s;
-                                            -ms-transition: all 0.2s;
-                                            -o-transition: all 0.2s;
-                                            transition: all 0.2s;
-                                        }
-                                        .tourne img:hover{
-                                            transform:rotate3d(0,1,0,180deg);
-                                        }
-                                    </style>
-                                    <style>
-                                        .surligner2 {
-                                            position: relative;
-                                            /* Ajoutez une position relative */
-                                        }
-                                    
-                                        .surligner2::before {
-                                            content: " ";
-                                            /* Contenu vide pour créer le soulignement */
-                                            position: absolute;
-                                            width: 100%;
-                                            height: 2px;
-                                            /* Hauteur du soulignement */
-                                            background: #E31C25;
-                                            /* Couleur du soulignement */
-                                            bottom: 0;
-                                            left: 0;
-                                            transform: scaleX(0);
-                                            /* Commencez par une échelle nulle */
-                                            transform-origin: bottom left;
-                                            transition: transform 0.3s ease;
-                                        }
-                                    
-                                        .surligner2:hover::before {
-                                            transform: scaleX(1);
-                                            /* Développez le soulignement au survol */
-                                        }
-                                    </style>                                            
-                                    
-                                    <div class="cimg">
-                                    
+
+                                <style>
+                                    .tourne img {
+                                        -webkit-transition: all 0.2s;
+                                        -moz-transition: all 0.2s;
+                                        -ms-transition: all 0.2s;
+                                        -o-transition: all 0.2s;
+                                        transition: all 0.2s;
+                                    }
+
+                                    .tourne img:hover {
+                                        transform: rotate3d(0, 1, 0, 180deg);
+                                    }
+                                </style>
+                                <style>
+                                    .surligner2 {
+                                        position: relative;
+                                        /* Ajoutez une position relative */
+                                    }
+
+                                    .surligner2::before {
+                                        content: " ";
+                                        /* Contenu vide pour créer le soulignement */
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 2px;
+                                        /* Hauteur du soulignement */
+                                        background: #E31C25;
+                                        /* Couleur du soulignement */
+                                        bottom: 0;
+                                        left: 0;
+                                        transform: scaleX(0);
+                                        /* Commencez par une échelle nulle */
+                                        transform-origin: bottom left;
+                                        transition: transform 0.3s ease;
+                                    }
+
+                                    .surligner2:hover::before {
+                                        transform: scaleX(1);
+                                        /* Développez le soulignement au survol */
+                                    }
+                                </style>
+
+                                <div class="cimg">
+
                                     <div style="display: flex; flex-direction: row;">
-                                    
-                                    <div style="text-align: center; margin-right: 150px;">
-                                    <div class="tourne">
-                                        <img style="width: 500px; margin-left: 200px;"
-                                            src="assets/images/abt/ocfest/ocf-est_menu_genral.png" title="site web ocf-est">
-                                    </div>
-                                    </div>
-                                    
-                                    <div style="text-align: center; margin-right: 20px; margin-top: 50px">
-                                        <div class="tourne">
-                                            <img style="width: 100px" src="assets/images/abt/ocfest/WordPress_blue_logo.svg.png"
-                                                title="Logo WordPress">
+
+                                        <div style="text-align: center; margin-right: 150px;">
+                                            <div class="tourne">
+                                                <img style="width: 500px; margin-left: 200px;"
+                                                    src="assets/images/abt/ocfest/ocf-est_menu_genral.png"
+                                                    title="site web ocf-est">
+                                            </div>
+                                        </div>
+
+                                        <div style="text-align: center; margin-right: 20px; margin-top: 50px">
+                                            <div class="tourne">
+                                                <img style="width: 100px"
+                                                    src="assets/images/abt/ocfest/WordPress_blue_logo.svg.png"
+                                                    title="Logo WordPress">
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
+                                </div>
+                                <br>
+
+                                <p style="width:800pt;margin-bottom:10px">Pour ce projet, j'ai utilisé des extensions
+                                    disponibles sur WordPress pour assurer le bon fonctionnement de ces fonctionnalités.
+                                    L'extension <span class="surligner1">Contact Form 7</span> a été utilisée pour créer
+                                    des formulaires de contact personnalisés, tandis que <span
+                                        class="surligner1">Forminator</span>
+                                    a été employé pour des formulaires plus complexes nécessitant des fonctionnalités
+                                    avancées telles que des champs conditionnels ou des
+                                    intégrations tierces.</p>
+
+                                <p style="width:800pt;margin-bottom:10px">
+                                    <strong>Développement sous WordPress</strong>
                                     <br>
+                                    WordPress repose sur une architecture PHP et utilise une base de données MySQL pour
+                                    stocker le contenu du site.
+                                    Le développement sous WordPress implique la création
+                                    de thèmes et de plugins personnalisés pour étendre les fonctionnalités de base du
+                                    système.
+                                    </br></br>
 
-                                    <p style="width:800pt;margin-bottom:10px">Pour ce projet, j'ai utilisé des extensions disponibles sur WordPress pour assurer le bon fonctionnement de ces fonctionnalités. 
-                                    L'extension <span class="surligner1">Contact Form 7</span> a été utilisée pour créer des formulaires de contact personnalisés, tandis que <span class="surligner1">Forminator</span>
-                                     a été employé pour des formulaires plus complexes nécessitant des fonctionnalités avancées telles que des champs conditionnels ou des 
-                                     intégrations tierces.</p>
-                                    
-                                     <p style="width:800pt;margin-bottom:10px">
-                                        <strong>Développement sous WordPress</strong>
-                                        <br>
-                                        WordPress repose sur une architecture PHP et utilise une base de données MySQL pour stocker le contenu du site. 
-                                        Le développement sous WordPress implique la création
-                                        de thèmes et de plugins personnalisés pour étendre les fonctionnalités de base du système.
-                                     </br></br>
+                                    Pour ce projet, j'ai développé des fonctionnalités personnalisées en utilisant
+                                    surtout <span class="surligner1">HTML</span> en utilisant ces extensions.
+                                    Cela inclut la création de modèles de page spécifiques pour la page de connexion, la
+                                    page d'inscription et le formulaire
+                                    de candidature, ainsi que l'ajout de fonctionnalités de validation et de sécurité
+                                    pour garantir la fiabilité des données
+                                    soumises par les utilisateurs.
+                                    </br></br>
+                                    En parallèle, j'ai été chargé de créer une page dédiée à la <span
+                                        class="surligner1">Politique de confidentialité</span> sur le site web. Cette
+                                    tâche
+                                    revêtait une importance capitale pour assurer la conformité aux réglementations en
+                                    matière de protection des données,
+                                    telles que le <span class="surligner1">Règlement général sur la protection des
+                                        données (RGPD)</span>.La Politique de confidentialité était conçue pour
+                                    informer clairement les utilisateurs sur la manière dont leurs données étaient
+                                    collectées, utilisées et protégées sur
+                                    le site. Cette démarche visait à renforcer la transparence et la confiance des
+                                    utilisateurs dans la gestion de
+                                    leurs informations personnelles.
+                                </p>
 
-                                        Pour ce projet, j'ai développé des fonctionnalités personnalisées en utilisant surtout <span class="surligner1">HTML</span> en utilisant ces extensions.
-                                        Cela inclut la création de modèles de page spécifiques pour la page de connexion, la page d'inscription et le formulaire
-                                         de candidature, ainsi que l'ajout de fonctionnalités de validation et de sécurité pour garantir la fiabilité des données
-                                         soumises par les utilisateurs.
-                                     </br></br>
-                                        En parallèle, j'ai été chargé de créer une page dédiée à la <span class="surligner1">Politique de confidentialité</span> sur le site web. Cette tâche 
-                                         revêtait une importance capitale pour assurer la conformité aux réglementations en matière de protection des données, 
-                                         telles que le <span class="surligner1">Règlement général sur la protection des données (RGPD)</span>.La Politique de confidentialité était conçue pour 
-                                         informer clairement les utilisateurs sur la manière dont leurs données étaient collectées, utilisées et protégées sur
-                                          le site. Cette démarche visait à renforcer la transparence et la confiance des utilisateurs dans la gestion de 
-                                          leurs informations personnelles.
-                                    </p>
 
- 
-<!-- 
+                                <!-- 
         <div style="text-align: center;">
         <a href=""><i class="far fa-eye"></i> Voir le projet</a>
         </div>
 -->
-<p style="width:800pt;margin-bottom:10px">Voici les pages que j'ai créer :</p>
+                                <p style="width:800pt;margin-bottom:10px">Voici les pages que j'ai créer :</p>
 
-        <div class="slider-container">
-            <div class="slider">
-              <div class="slides">
-                <div id="slides__1" class="slide">
-                  <a class="slide__prev" href="#slides__4" title="Next"></a>
-                  <a class="slide__next" href="#slides__2" title="Next"></a>
-                </div>
-                <div id="slides__2" class="slide">
-                  <a class="slide__prev" href="#slides__1" title="Prev"></a>
-                  <a class="slide__next" href="#slides__3" title="Next"></a>
-                </div>
-                <div id="slides__3" class="slide">
-                  <a class="slide__prev" href="#slides__2" title="Prev"></a>
-                  <a class="slide__next" href="#slides__4" title="Next"></a>
-                </div>
-                <div id="slides__4" class="slide">
-                  <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                  <a class="slide__next" href="#slides__1" title="Prev"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <style>
-            .slider-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            margin:10px;
-            }
-
-.slider {
-    width: 100%;
-    max-width: 600px;
-    height:400px;
-    margin:20px;
-    text-align: center;
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-}
-.slides {
-    display: flex;
-    overflow-x: scroll;
-    position: relative;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-}
-
-.slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    width: 100%;
-    height: 400px;
-    margin-right: 0px;
-    box-sizing: border-box;
-    background: white;
-    transform-origin: center center;
-    transform: scale(1);
-    scroll-snap-align: center;
-}
-
-.slide__text {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.slide a {
-    background: none;
-    border: none;
-}
-
-a.slide__prev{
-    background-color: transparent !important;
-    border: none;
-}
-a.slide__next {
-    background-color: transparent !important;
-    border: none;
-}
-a.slide__prev,
-.slider::before {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    left: 5%;
-}
-
-a.slide__next,
-.slider::after {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    right: 5%;
-}
-
-.slider::before,
-.slider::after,
-.slide__prev,
-.slide__next {
-    position: absolute;
-    top: 48%;
-    width: 35px;
-    height: 35px;
-    border: solid black;
-    border-width: 0 4px 4px 0;
-    padding: 3px;
-    box-sizing: border-box;
-}
-
-.slider::before,
-.slider::after {
-  content: '';
-  z-index: 1;
-  background: none;
-  pointer-events: none;
-}
-
-/* Background images for slides */
-#slides__4 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('assets/images/abt/ocfest/Politique_de_confidentialité1.png');
-}
-
-#slides__1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('assets/images/abt/ocfest/ocf-est-connexion.png');
-}
-
-#slides__2 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('assets/images/abt/ocfest/ocf-est-inscription.png');
-}
-#slides__3 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('assets/images/abt/ocfest/candidature1.png');
-}
-          </style>
-       
+                                <div class="slider-container">
+                                    <div class="slider">
+                                        <div class="slides">
+                                            <div id="slides__1" class="slide">
+                                                <a class="slide__prev" href="#slides__4" title="Next"></a>
+                                                <a class="slide__next" href="#slides__2" title="Next"></a>
+                                            </div>
+                                            <div id="slides__2" class="slide">
+                                                <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                                                <a class="slide__next" href="#slides__3" title="Next"></a>
+                                            </div>
+                                            <div id="slides__3" class="slide">
+                                                <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                                                <a class="slide__next" href="#slides__4" title="Next"></a>
+                                            </div>
+                                            <div id="slides__4" class="slide">
+                                                <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                                                <a class="slide__next" href="#slides__1" title="Prev"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
+                                <style>
+                                    .slider-container {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 100%;
+                                        margin: 10px;
+                                    }
 
-    </div>
+                                    .slider {
+                                        width: 100%;
+                                        max-width: 600px;
+                                        height: 400px;
+                                        margin: 20px;
+                                        text-align: center;
+                                        border-radius: 20px;
+                                        overflow: hidden;
+                                        position: relative;
+                                    }
+
+                                    .slides {
+                                        display: flex;
+                                        overflow-x: scroll;
+                                        position: relative;
+                                        scroll-behavior: smooth;
+                                        scroll-snap-type: x mandatory;
+                                    }
+
+                                    .slide {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-shrink: 0;
+                                        width: 100%;
+                                        height: 400px;
+                                        margin-right: 0px;
+                                        box-sizing: border-box;
+                                        background: white;
+                                        transform-origin: center center;
+                                        transform: scale(1);
+                                        scroll-snap-align: center;
+                                    }
+
+                                    .slide__text {
+                                        font-size: 40px;
+                                        font-weight: bold;
+                                        font-family: sans-serif;
+                                    }
+
+                                    .slide a {
+                                        background: none;
+                                        border: none;
+                                    }
+
+                                    a.slide__prev {
+                                        background-color: transparent !important;
+                                        border: none;
+                                    }
+
+                                    a.slide__next {
+                                        background-color: transparent !important;
+                                        border: none;
+                                    }
+
+                                    a.slide__prev,
+                                    .slider::before {
+                                        transform: rotate(135deg);
+                                        -webkit-transform: rotate(135deg);
+                                        left: 5%;
+                                    }
+
+                                    a.slide__next,
+                                    .slider::after {
+                                        transform: rotate(-45deg);
+                                        -webkit-transform: rotate(-45deg);
+                                        right: 5%;
+                                    }
+
+                                    .slider::before,
+                                    .slider::after,
+                                    .slide__prev,
+                                    .slide__next {
+                                        position: absolute;
+                                        top: 48%;
+                                        width: 35px;
+                                        height: 35px;
+                                        border: solid black;
+                                        border-width: 0 4px 4px 0;
+                                        padding: 3px;
+                                        box-sizing: border-box;
+                                    }
+
+                                    .slider::before,
+                                    .slider::after {
+                                        content: '';
+                                        z-index: 1;
+                                        background: none;
+                                        pointer-events: none;
+                                    }
+
+                                    /* Background images for slides */
+                                    #slides__4 {
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-image: url('assets/images/abt/ocfest/Politique_de_confidentialité1.png');
+                                    }
+
+                                    #slides__1 {
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-image: url('assets/images/abt/ocfest/ocf-est-connexion.png');
+                                    }
+
+                                    #slides__2 {
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-image: url('assets/images/abt/ocfest/ocf-est-inscription.png');
+                                    }
+
+                                    #slides__3 {
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-image: url('assets/images/abt/ocfest/candidature1.png');
+                                    }
+                                </style>
+
+
+
+
                             </div>
                         </div>
-                        <div class="inter">
-                            <h6>STAGES</h6>
-                        </div>
+                    </div>
+                    <div class="inter">
+                        <h6>STAGES</h6>
                     </div>
                 </div>
             </div>
+        </div>
 
 
     </section>
